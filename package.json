@@ -1,0 +1,11 @@
+{
+  "name": "atomicmp-consts",
+  "version": "1.0.0",
+  "description": "A JSON file for global constants across our many platforms a/o microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "milesflo",
+  "license": "ISC"
+}
