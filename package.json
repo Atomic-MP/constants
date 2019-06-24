@@ -1,5 +1,5 @@
 {
-  "name": "atomicmp-consts",
+  "name": "@atomicmp/atomicmp-consts",
   "version": "1.0.0",
   "description": "A JSON file for global constants across our many platforms a/o microservices",
   "main": "dist/index.js",
@@ -14,5 +14,17 @@
   "devDependencies": {
     "jest": "^24.8.0",
     "typescript": "^3.5.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomicmp/constants.git"
+  },
+  "keywords": [
+    "constants"
+  ],
+  "bugs": {
+    "url": "https://github.com/atomicmp/constants/issues"
+  },
+  "homepage": "https://github.com/atomicmp/constants#readme"
 }
