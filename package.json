@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A JSON file for global constants across our many platforms a/o microservices",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "engines": {
     "node": "10.10.0"
   },
