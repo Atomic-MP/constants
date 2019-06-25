@@ -3,15 +3,26 @@ interface IRole {
   role_name: string;
 }
 
+interface IStatusRange {
+  MIN: number;
+  MAX: number;
+}
+
 const SALT_ROUNDS: number = 10;
 const HEADS: number       = 10;
 const HAIRS: number       = 24;
-const MAX_HEALTH: number  = 100;
-const MIN_HEALTH: number  = 0;
-const MAX_HUNGER: number  = 100;
-const MIN_HUNGER: number  = 0;
-const MAX_THIRST: number  = 100;
-const MIN_THIRST: number  = 0;
+const HEALTH: IStatusRange  = {
+  MIN: 0,
+  MAX: 100,
+};
+const HUNGER: IStatusRange  = {
+  MIN: 0,
+  MAX: 100,
+};
+const THIRST: IStatusRange  = {
+  MIN: 0,
+  MAX: 100,
+};
 const HAIR_COLORS: number = 7;
 const ROLES: IRole[] = [
   {
@@ -42,10 +53,7 @@ export default {
   HAIRS,
   HAIR_COLORS,
   ROLES,
-  MAX_HEALTH,
-  MIN_HEALTH,
-  MAX_HUNGER,
-  MIN_HUNGER,
-  MAX_THIRST,
-  MIN_THIRST,
+  HEALTH,
+  HUNGER,
+  THIRST,
 }
