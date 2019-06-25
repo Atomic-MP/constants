@@ -1,6 +1,6 @@
 {
   "name": "@atomicmp/atomicmp-consts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JSON file for global constants across our many platforms a/o microservices",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
