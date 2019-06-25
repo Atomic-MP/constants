@@ -3,6 +3,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var SALT_ROUNDS = 10;
 var HEADS = 10;
 var HAIRS = 24;
+var HEALTH = {
+    MIN: 0,
+    MAX: 100,
+};
+var HUNGER = {
+    MIN: 0,
+    MAX: 100,
+};
+var THIRST = {
+    MIN: 0,
+    MAX: 100,
+};
 var HAIR_COLORS = 7;
 var ROLES = [
     {
@@ -32,4 +44,7 @@ exports.default = {
     HAIRS: HAIRS,
     HAIR_COLORS: HAIR_COLORS,
     ROLES: ROLES,
+    HEALTH: HEALTH,
+    HUNGER: HUNGER,
+    THIRST: THIRST,
 };
