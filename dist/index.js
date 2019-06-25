@@ -1,22 +1,20 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var SALT_ROUNDS = 10;
-var HEADS = 10;
-var HAIRS = 24;
-var HEALTH = {
+const SALT_ROUNDS = 10;
+const HEADS = 10;
+const HAIRS = 24;
+const HEALTH = {
     MIN: 0,
     MAX: 100,
 };
-var HUNGER = {
+const HUNGER = {
     MIN: 0,
     MAX: 100,
 };
-var THIRST = {
+const THIRST = {
     MIN: 0,
     MAX: 100,
 };
-var HAIR_COLORS = 7;
-var ROLES = [
+const HAIR_COLORS = 7;
+const ROLES = [
     {
         role_id: 1,
         role_name: "banned",
@@ -38,13 +36,13 @@ var ROLES = [
         role_name: "admin",
     },
 ];
-exports.default = {
-    SALT_ROUNDS: SALT_ROUNDS,
-    HEADS: HEADS,
-    HAIRS: HAIRS,
-    HAIR_COLORS: HAIR_COLORS,
-    ROLES: ROLES,
-    HEALTH: HEALTH,
-    HUNGER: HUNGER,
-    THIRST: THIRST,
+export default {
+    SALT_ROUNDS,
+    HEADS,
+    HAIRS,
+    HAIR_COLORS,
+    ROLES,
+    HEALTH,
+    HUNGER,
+    THIRST,
 };
